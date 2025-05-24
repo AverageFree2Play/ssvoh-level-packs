@@ -1,0 +1,12 @@
+{
+    "id": "entropy",
+    "name": "entropy",
+    "description": "[x] feet tall",
+    "author": "avery",
+    "menuPriority": 40,
+    "selectable": true,
+    "styleId": "entropy",
+    "musicId": "ToE",
+    "luaFile": "Scripts/Levels/entropy.lua",
+    "difficultyMults": [1.6, 0.35]
+}

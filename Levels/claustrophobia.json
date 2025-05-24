@@ -1,0 +1,12 @@
+{
+    "id": "claustrophobia",
+    "name": "claustrophobia",
+    "description": "tight spaces.",
+    "author": "avery",
+    "menuPriority": 80,
+    "selectable": true,
+    "styleId": "claustrophobia",
+    "musicId": "clutterfunk",
+    "luaFile": "Scripts/Levels/claustrophobia.lua",
+    "difficultyMults": [2,1.50, 0.5]
+}

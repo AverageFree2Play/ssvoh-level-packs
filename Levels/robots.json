@@ -1,0 +1,18 @@
+{
+	// Level information
+	"id": "airborneRobots",
+	"name": "airborne robots",
+	"description": "incoming chaos",
+	"author": "avery",	
+	"menuPriority": 0,
+	"selectable": true,
+	
+	// Style
+	"styleId": "airborneRobots",
+	
+	// Music
+	"musicId": "airborneRobots",
+	
+	// Lua
+	"luaFile": "Scripts/Levels/airborneRobots.lua"
+}

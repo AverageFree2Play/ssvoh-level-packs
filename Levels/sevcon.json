@@ -1,0 +1,18 @@
+{
+	// Level information
+	"id": "sevcon",
+	"name": "sevcon",
+	"description": "sneaky",
+	"author": "avery",	
+	"menuPriority": 5,
+	"selectable": true,
+	
+	// Style
+	"styleId": "sevcon",
+	
+	// Music
+	"musicId": "sevcon",
+	
+	// Lua
+	"luaFile": "Scripts/Levels/sevcon.lua"
+}
