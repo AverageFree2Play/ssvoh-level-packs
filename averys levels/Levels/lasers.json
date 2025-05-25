@@ -1,0 +1,18 @@
+{
+	// Level information
+	"id": "lasers",
+	"name": "lasers",
+	"description": "pew pew",
+	"author": "Exschwasion",	
+	"menuPriority": 59878870,
+	"selectable": true,
+	
+	// Style
+	"styleId": "laser",
+	
+	// Music
+	"musicId": "banana",
+	
+	// Lua
+	"luaFile": "Scripts/Levels/lasers.lua"
+}

@@ -1,0 +1,11 @@
+{
+	"id": "lockdown",
+	"name": "lockdown",
+	"description": "gate + invert",
+	"author": "Exschwasion",	
+	"menuPriority": 2,
+	"selectable": true,
+	"styleId": "invertstuff1",
+	"musicId": "vaprus",
+	"luaFile": "Scripts/Levels/lockdown.lua"
+}
