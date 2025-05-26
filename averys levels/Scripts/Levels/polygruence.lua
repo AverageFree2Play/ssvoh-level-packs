@@ -12,7 +12,7 @@ function addPattern(mKey)
     elseif mKey == 2 then pTrapBarrageInverse(u_rndInt(0, l_getSides()))
     elseif mKey == 3 then pTrapBarrageAlt(u_rndInt(0, l_getSides()))
     -- Incongruence patterns
-    elseif mKey == 4 then pBarrage()
+    --[[elseif mKey == 4 then pBarrage()
     elseif mKey == 5 then pRCBarrageDouble()
     elseif mKey == 6 then pBarrageSpiral(math.random(1, 2), 0.8)
     elseif mKey == 7 then
@@ -22,17 +22,17 @@ function addPattern(mKey)
     -- "Dynamic" Patterns
     elseif mKey == 8 then pRCAscendBarrageRandom(lowerBound, upperBound)
     elseif mKey == 9 then pRCAscendBarrage(getRandomSide(), lowerBound, upperBound)
-    elseif mKey == 10 then pRCDynamicAltBarrage(2, math.random(3, 4), lowerBound, upperBound)
+    elseif mKey == 10 then pRCDynamicAltBarrage(2, math.random(3, 4), lowerBound, upperBound)]]
     end
 end
 
 -- shuffle the keys, and then call them to add all the patterns
 -- shuffling is better than randomizing - it guarantees all the patterns will be called
-keys = { 0, 0, 1, 1, 2, 2, 3, 3, 4, 4, 4, 5, 5, 6, 7}
+keys = { 0, 0, 1, 1, 2, 2, 3, 3 }
 shuffle(keys)
 index = 0
 lowerBound = 4
-upperBound = 5
+upperBound = 6
 level = 1
 extra = 0
 incrementTime = 10
@@ -75,16 +75,8 @@ end
 
 -- onLoad is an hardcoded function that is called when the level is started/restarted
 function onLoad()
-    if (u_getDifficultyMult() >= 1) then
-        keys[#keys + 1] = 8
-        keys[#keys + 1] = 8
-        if (u_getDifficultyMult() > 1) then
-            s_setStyle("hyperpolygruence")
-            e_messageAdd("Hyper mode enabled\n\"Dynamic\" patterns enabled!", 130)
-            keys[#keys + 1] = 9
-            keys[#keys + 1] = 10
-        end
-        shuffle(keys)
+    if (u_getDifficultyMult() > 1) then
+        s_setStyle("hyperpolygruence")
     end
     e_messageAddImportant("Sides: "..lowerBound.." - "..upperBound.."\nlevel: "..(extra + 1).." / time: "..incrementTime, 170)
 end
@@ -93,24 +85,13 @@ end
 -- onStep should contain your pattern spawning logic
 function onStep()
     local mKey = keys[index]
-    l_setSides(u_rndInt(lowerBound, upperBound))
-    if last == 1 and mKey < 4 then
-       t_wait(getPerfectDelay(THICKNESS)*8)
-    end
-
+    l_setSides(u_rndInt(lowerBound, upperBound)) 
     addPattern(mKey)
     index = index + 1
 
     if index - 1 == #keys then
         index = 1
         shuffle(keys)
-    end
-
-
-    if mKey > 3 then
-        last = 1
-    else
-        last = 0
     end
 end
 

@@ -143,7 +143,7 @@ function onStep()
 			nextincr = nextincr + 2
 		end
 		if sides < 10 then
-			sides = sides + 1
+			sides = sides + 2
 			l_setSides(sides)
 		end
 		count = 0
