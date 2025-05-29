@@ -1,0 +1,21 @@
+{
+	// Music data id
+	"id": "cosmos",
+
+	// Music file
+	"file_name": "cosmos.ogg",
+
+	// Music information
+	"name": "Beyond the Cosmos",
+	"album": "Spectra",
+	"author": "Chipzel",
+	
+	// Segments
+	"segments":
+	[
+		{ "time": 20 },
+		{ "time": 42.61 },
+		{ "time": 64.415 },
+		{ "time": 75.328 }
+	]
+}
