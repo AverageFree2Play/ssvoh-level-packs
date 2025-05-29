@@ -1,0 +1,12 @@
+{
+    "id": "cosmos",
+    "name": "cosmos",
+    "description": "you're moving but the walls are not",
+    "author": "avvery",
+    "menuPriority": 90,
+    "selectable": true,
+    "styleId": "cosmos",
+    "musicId": "cosmos",
+    "luaFile": "Scripts/Levels/cosmos.lua",
+    "difficultyMults": [1.8, 0.5]
+}

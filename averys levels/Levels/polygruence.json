@@ -8,5 +8,5 @@
     "styleId": "polygruence",
     "musicId": "fiskdamm",
     "luaFile": "Scripts/Levels/polygruence.lua",
-    "difficultyMults": [0.5, 1.8]
+    "difficultyMults": [0.75, 1.8]
 }

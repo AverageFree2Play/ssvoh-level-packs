@@ -14,5 +14,8 @@
 	"musicId": "airborneRobots",
 	
 	// Lua
-	"luaFile": "Scripts/Levels/airborneRobots.lua"
+	"luaFile": "Scripts/Levels/airborneRobots.lua",
+
+	"difficultyMults": [0.6, 1.8, 2.2]
+
 }

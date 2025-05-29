@@ -1,0 +1,19 @@
+{
+	// Level information
+	"id": "rps",
+	"name": "Rock Paper Scissors",
+	"description": "Because fuck having skill!\n\n(1.001: No Bullshit)",
+	"author": "Metrono Ivernan",	
+	"menuPriority": 15,
+	"selectable": true,
+	
+	// Style
+	"styleId": "rps",
+	
+	// Music
+	"musicId": "gmoomh",
+	
+	// Lua
+	"luaFile": "Scripts/Levels/rps.lua",
+	"difficultyMults": [1.001]
+}
