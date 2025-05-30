@@ -1,0 +1,18 @@
+{
+	// Level information
+	"id": "alliance",
+	"name": "alliance",
+	"description": "groove",
+	"author": "avery",	
+	"menuPriority": 823456,
+	"selectable": true,
+	
+	// Style
+	"styleId": "alliance",
+	
+	// Music
+	"musicId": "alliance",
+	
+	// Lua
+	"luaFile": "Scripts/Levels/triangle.lua"
+}
