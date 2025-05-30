@@ -27,11 +27,7 @@
 	// Background colors
 	"colors":
 	[
-		{ "dynamic": false, "dynamic_offset": false, "dynamic_darkness": 1.0, "value": [0, 0, 0, 0], "pulse": [0, 0, 0, 0]},
-		{ "dynamic": true, "dynamic_offset": false, "dynamic_darkness": 6.0, "value": [0, 20, 0, 20], "pulse": [0, 0, 0, 0]},
-		{ "dynamic": false, "dynamic_offset": false, "dynamic_darkness": 1.0, "value": [0, 0, 0, 0], "pulse": [0, 0, 0, 0]},
-		{ "dynamic": true, "dynamic_offset": false, "dynamic_darkness": 6.0, "value": [0, 30, 0, 30], "pulse": [0, 0, 0, 0]},
-		{ "dynamic": false, "dynamic_offset": false, "dynamic_darkness": 1.0, "value": [0, 0, 0, 0], "pulse": [0, 0, 0, 0]},
-		{ "dynamic": true, "dynamic_offset": false, "dynamic_darkness": 6.0, "value": [0, 10, 0, 10], "pulse": [0, 0, 0, 0]}
+		{ "dynamic": false, "dynamic_offset": false, "dynamic_darkness": 1.0, "value": [0, 0, 0, 255], "pulse": [0, 0, 0, 0]},
+		{ "dynamic": true, "dynamic_offset": false, "dynamic_darkness": 6.0, "value": [0, 20, 0, 255], "pulse": [0, 0, 0, 0]}
 	]
 }
