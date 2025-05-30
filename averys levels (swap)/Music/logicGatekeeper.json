@@ -1,0 +1,22 @@
+{
+    // Music data id
+    "id": "logicGatekeeper",
+
+    // Music file
+    "file_name": "logicGatekeeper.ogg",
+
+    // Music information
+    "name": "Logic Gatekeeper",
+    "album": "Parallel Processing",
+    "author": "Danimal Cannon & Zef",
+
+    // Segments
+    "segments":
+    [
+        { "time": 12 },
+        { "time": 35.772 },
+        { "time": 56.715 },
+        { "time": 140.406 },
+        { "time": 153.857 }
+    ]
+}
