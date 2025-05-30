@@ -1,0 +1,22 @@
+{
+    // Music data id
+    "id": "clutterfunk",
+
+    // Music file
+    "file_name": "clutterfunk.ogg",
+
+    // Music information
+    "name": "Clutterfunk",
+    "album": "",
+    "author": "Waterflame",
+
+    // Segments
+    "segments":
+    [
+        { "time": 42.452 },
+        { "time": 70.314 },
+        { "time": 90.879 },
+        { "time": 104.921 },
+        { "time": 148.316 }
+    ]
+}

@@ -1,0 +1,23 @@
+{
+    // Music data id
+    "id": "isolation",
+
+    // Music file
+    "file_name": "isolation.ogg",
+
+    // Music information
+    "name": "Isolation (Limbo Remix)",
+    "album": "",
+    "author": "Nighthawk22",
+
+    // Segments
+    "segments":
+    [
+        { "time": 0 },
+        { "time": 26.485 },
+        { "time": 71 },
+        { "time": 83.948 },
+        { "time": 100 },
+        { "time": 109.224 }
+    ]
+}

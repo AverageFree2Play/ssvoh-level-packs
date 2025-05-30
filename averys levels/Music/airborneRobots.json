@@ -1,0 +1,20 @@
+{
+	// Music data id
+	"id": "airborneRobots",
+
+	// Music file
+	"file_name": "airborneRobots.ogg",
+
+	// Music information
+	"name": "Airborne Robots",
+	"album": "",
+	"author": "F-777",
+	
+	// Segments
+	"segments":
+	[
+		{ "time": 48 },
+		{ "time": 87.633 },		
+		{ "time": 126 }
+	]
+}

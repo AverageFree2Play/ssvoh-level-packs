@@ -1,0 +1,18 @@
+{
+	// Level information
+	"id": "lonely",
+	"name": "isolation",
+	"description": "There is no shape. Just you.",
+	"author": "avery",	
+	"menuPriority": 20,
+	"selectable": true,
+	
+	// Style
+	"styleId": "lonely",
+	
+	// Music
+	"musicId": "isolation",
+	
+	// Lua
+	"luaFile": "Scripts/Levels/lonely.lua"
+}

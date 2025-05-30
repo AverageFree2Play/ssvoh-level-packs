@@ -1,0 +1,12 @@
+{
+    "id": "one",
+    "name": "Legacy",
+    "description": "My first level. A fork of Pointless.",
+    "author": "avery",
+    "menuPriority": 50,
+    "selectable": true,
+    "styleId": "one",
+    "musicId": "legacy",
+    "luaFile": "Scripts/Levels/one.lua",
+    "difficultyMults": [1]
+}

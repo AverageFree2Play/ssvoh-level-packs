@@ -1,0 +1,12 @@
+{
+    "id": "labyrinth",
+    "name": "old labyrinth",
+    "description": "old version of labyrinth, walls now pusle less frequently and moves down faster",
+    "author": "vittorio romeo",
+    "menuPriority": 80,
+    "selectable": true,
+    "styleId": "labyrinth",
+    "musicId": "commandoSteve",
+    "luaFile": "Scripts/Levels/OLDlabyrinth.lua",
+    "difficultyMults": [1.50, 0.5]
+}
