@@ -1,0 +1,19 @@
+{
+	// Music data id
+	"id": "clouds",
+
+	// Music file
+	"file_name": "clouds.ogg",
+
+	// Music information
+	"name": "Formed in the Clouds (Interlude)",
+	"album": "Spectra",
+	"author": "Chipzel",
+	
+	// Segments
+	"segments":
+	[
+		{ "time": 46 },
+		{ "time": 70 }
+	]
+}
