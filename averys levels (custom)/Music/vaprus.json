@@ -1,0 +1,21 @@
+{
+	// Music data id
+	"id": "vaprus",
+
+	// Music file
+	"file_name": "vaprus.ogg",
+
+	// Music information
+	"name": "Vaprus",
+	"album": "Elemental",
+	"author": "PrototypeRaptor",
+	
+	// Segments
+	"segments":
+	[
+		{ "time": 78.5 },
+		{ "time": 109.8},
+		{ "time": 125.4 },
+		{ "time": 170.7 }
+	]
+}

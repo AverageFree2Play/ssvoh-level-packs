@@ -1,0 +1,24 @@
+{
+    // Music data id
+    "id": "spectra",
+
+    // Music file
+    "file_name": "spectra.ogg",
+
+    // Music information
+    "name": "Spectra",
+    "album": "Spectra",
+    "author": "Chipzel",
+
+    // Segments
+    "segments":
+    [
+        { "time": 0 },
+        { "time": 14.63 },
+        { "time": 36.78 },
+        { "time": 59.086 },
+        { "time": 73.735 },
+        { "time": 105.25 },
+        { "time": 132.9 }
+    ]
+}
