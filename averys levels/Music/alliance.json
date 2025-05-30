@@ -1,0 +1,19 @@
+{
+    // Music data id
+    "id": "alliance",
+
+    // Music file
+    "file_name": "alliance.ogg",
+
+    // Music information
+    "name": "Alliance",
+    "album": "Dimensions",
+    "author": "shirobon",
+
+    // Segments
+    "segments":
+    [
+        { "time": 70.784 },
+        { "time": 98.758 }
+    ]
+}
