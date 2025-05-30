@@ -1,0 +1,18 @@
+{
+	// Level information
+	"id": "block",
+	"name": "flipside",
+	"description": "half covered\npress space to swap",
+	"author": "avery",	
+	"menuPriority": 10,
+	"selectable": true,
+	
+	// Style
+	"styleId": "blockmenu",
+	
+	// Music
+	"musicId": "terminationShock",
+	
+	// Lua
+	"luaFile": "Scripts/Levels/block.lua"
+}

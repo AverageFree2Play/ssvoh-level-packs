@@ -1,0 +1,18 @@
+{
+	// Level information
+	"id": "binary",
+	"name": "binary",
+	"description": "two options\npress space to swap",
+	"author": "avery",	
+	"menuPriority": 6,
+	"selectable": true,
+	
+	// Style
+	"styleId": "binarysystem",
+	
+	// Music
+	"musicId": "core",
+	
+	// Lua
+	"luaFile": "Scripts/Levels/binary.lua"
+}

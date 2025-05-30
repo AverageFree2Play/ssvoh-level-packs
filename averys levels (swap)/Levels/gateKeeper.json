@@ -1,0 +1,18 @@
+{
+	// Level information
+	"id": "gateKeeper",
+	"name": "logic gatekeeper",
+	"description": "three sections\npress space to swap",
+	"author": "avery",	
+	"menuPriority": 15,
+	"selectable": true,
+	
+	// Style
+	"styleId": "calmblue",
+	
+	// Music
+	"musicId": "logicGatekeeper",
+	
+	// Lua
+	"luaFile": "Scripts/Levels/gateKeeper.lua"
+}
