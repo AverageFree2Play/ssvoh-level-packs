@@ -1,0 +1,20 @@
+{
+	// Level information
+	"id": "zoom",
+	"name": "Zoom",
+	"description": "quick zoomies",
+	"author": "avery",	
+	"menuPriority": 265,
+	"selectable": true,
+	
+	// Style
+	"styleId": "zoom",
+	
+	// Music
+	"musicId": "artOfWar",
+	
+	// Lua
+	"luaFile": "Scripts/Levels/zoom.lua",
+	
+	"difficultyMults": [0.9, 1.5, 1.75, 2, 2.5, 3]
+}

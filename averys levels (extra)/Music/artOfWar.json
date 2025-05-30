@@ -1,0 +1,20 @@
+{
+	// Music data id
+	"id": "artOfWar",
+
+	// Music file
+	"file_name": "artOfWar.ogg",
+
+	// Music information
+	"name": "The Art of War",
+	"album": "Spectra",
+	"author": "Chipzel",
+	
+	// Segments
+	"segments":
+	[
+		{ "time": 43.143 },
+		{ "time": 77.606 },
+		{ "time": 110.744 }
+	]
+}

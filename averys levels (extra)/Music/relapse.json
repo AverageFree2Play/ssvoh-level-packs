@@ -1,0 +1,16 @@
+{
+	
+	// Music data id
+	"id": "relapse",
+	// Music file
+	"file_name": "relapse.ogg",
+	// Music information
+	"name": "Relapse",
+	"album": "The Glory Days",
+	"author": "biggiantcircles",
+	// Segments
+	"segments":
+	[
+		{ "time": 0 }
+	]
+}
