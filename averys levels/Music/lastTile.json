@@ -1,0 +1,22 @@
+{
+    // Music data id
+    "id": "lastTile",
+
+    // Music file
+    "file_name": "lastTile.ogg",
+
+    // Music information
+    "name": "Last Tile 海底撈月",
+    "album": "Mercury",
+    "author": "Kommisar",
+
+    // Segments
+    "segments":
+    [
+        { "time": 12.786 },
+        { "time": 46.317 },
+        { "time": 64.515 },
+        { "time": 92.587 },
+        { "time": 105.822 }
+    ]
+}

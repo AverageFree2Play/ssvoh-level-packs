@@ -1,0 +1,21 @@
+{
+    // Music data id
+    "id": "deadlocked",
+
+    // Music file
+    "file_name": "deadlocked.ogg",
+
+    // Music information
+    "name": "Deadlocked",
+    "album": "Deadlocked vol.1",
+    "author": "F-777",
+
+    // Segments
+    "segments":
+    [
+        { "time": 14.188 },
+        { "time": 28.419 },
+        { "time": 56.934 },
+        { "time": 63.919 }
+    ]
+}

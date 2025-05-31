@@ -1,0 +1,20 @@
+{
+    // Music data id
+    "id": "sonicBlaster",
+
+    // Music file
+    "file_name": "sonicBlaster.ogg",
+
+    // Music information
+    "name": "Sonic Blaster",
+    "album": "",
+    "author": "F-777",
+
+    // Segments
+    "segments":
+    [
+        { "time": 13.217 },
+        { "time": 51.301 },
+        { "time": 106.242 }
+    ]
+}
