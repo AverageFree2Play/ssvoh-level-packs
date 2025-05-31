@@ -1,0 +1,18 @@
+{
+	// Level information
+	"id": "space",
+	"name": "RGB",
+	"description": "seeing triple\nEPILEPSY WARNING",
+	"author": "avery",	
+	"menuPriority": 2,
+	"selectable": true,
+	
+	// Style
+	"styleId": "space",
+	
+	// Music
+	"musicId": "deadlocked",
+	
+	// Lua
+	"luaFile": "Scripts/Levels/space.lua"
+}

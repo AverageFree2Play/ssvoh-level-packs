@@ -1,0 +1,18 @@
+{
+	// Level information
+	"id": "sonicwave",
+	"name": "sonic wave",
+	"description": "incoming seizure",
+	"author": "avery",	
+	"menuPriority": 7,
+	"selectable": true,
+	
+	// Style
+	"styleId": "sonicwave",
+	
+	// Music
+	"musicId": "sonicBlaster",
+	
+	// Lua
+	"luaFile": "Scripts/Levels/sonicwave.lua"
+}
