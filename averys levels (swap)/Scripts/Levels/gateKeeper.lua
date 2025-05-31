@@ -64,7 +64,7 @@ function onStep()
 		w_wallAcc(wall + i, THICKNESS * 0.7, 0.5, -0.0003 * (delay - 11), 0, 1)
 	end
 	oldPartition = partition
-	t_wait(getPerfectDelay(THICKNESS) * delay)
+	t_wait(getPerfectDelay(THICKNESS) * delay * 1.25) 
 	num = num + 1
 	
 	if num % 5 == 0 and delay > 12 then

@@ -11,12 +11,12 @@ function simpleAlt(mTimes)
 		w_wall(startSide + 1, THICKNESS)
 		w_wallAcc(2 - startSide, THICKNESS, 3, -0.135, -1, 3)
 		w_wallAcc(3 - startSide, THICKNESS, 3, -0.135, -1, 3)
-		t_wait(getPerfectDelay(THICKNESS) * 4)
+		t_wait(getPerfectDelay(THICKNESS) * 7)
 		w_wall(2 - startSide, THICKNESS)
 		w_wall(3 - startSide, THICKNESS)
 		w_wallAcc(startSide, THICKNESS, 3, -0.135, -1, 3)
 		w_wallAcc(startSide + 1, THICKNESS, 3, -0.135, -1, 3)
-		t_wait(getPerfectDelay(THICKNESS) * 4)
+		t_wait(getPerfectDelay(THICKNESS) * 7)
 	end
 	t_wait(getPerfectDelay(THICKNESS) * 7)
 end
@@ -32,7 +32,7 @@ function trickyTrick(mTimes)
 		w_wallAcc(side + 1, THICKNESS, 3, -0.135, -1, 3)
 		w_wallAcc(2 - side, THICKNESS, 3, -0.135, -1, 3)
 		w_wallAcc(3 - side, THICKNESS, 3, -0.135, -1, 3)
-		t_wait(getPerfectDelay(THICKNESS) * 7)
+		t_wait(getPerfectDelay(THICKNESS) * 15)
 	end
 	t_wait(getPerfectDelay(THICKNESS) * 7)
 end
@@ -48,7 +48,7 @@ function trickyTricky(mTimes)
 		w_wallAcc(2 - side, THICKNESS, 0.85, 0.14, 0.5, 1.2)
 		w_wallAcc(side + 1, THICKNESS, 3, -0.135, -1, 3)
 		w_wallAcc(side, THICKNESS, 3, -0.135, -1, 3)
-		t_wait(getPerfectDelay(THICKNESS) * 9)
+		t_wait(getPerfectDelay(THICKNESS) * 15)
 	end
 	t_wait(getPerfectDelay(THICKNESS) * 7)
 end
@@ -64,7 +64,7 @@ function trickyTrickyTricky(mTimes)
 		w_wallAcc(2 - side, THICKNESS, 2, -0.07, 1, 2)
 		w_wallAcc(side + 1, THICKNESS, 3, -0.135, -1, 3)
 		w_wallAcc(side, THICKNESS, 3, -0.135, -1, 3)
-		t_wait(getPerfectDelay(THICKNESS) * 9)
+		t_wait(getPerfectDelay(THICKNESS) * 15)
 	end
 	t_wait(getPerfectDelay(THICKNESS) * 7)
 end

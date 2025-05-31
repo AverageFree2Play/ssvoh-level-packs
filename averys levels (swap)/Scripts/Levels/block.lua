@@ -7,7 +7,7 @@ u_execDependencyScript("ohvrvanilla", "base", "vittorio romeo", "commonpatterns.
 -- execScript("expatterns4.lua")
 -- execScript("expatterns3.lua")
 
-delay = 60
+delay = 80
 half = 0
 num = 0
 consec = 0
@@ -47,7 +47,7 @@ end
 
 -- shuffle the keys, and then call them to add all the patterns
 -- shuffling is better than randomizing - it guarantees all the patterns will be called
-keys = {0, 0, 0, 0, 0, 1}
+keys = {0, 0, 0, 0, 1, 1}
 shuffle(keys)
 index = 0
 
