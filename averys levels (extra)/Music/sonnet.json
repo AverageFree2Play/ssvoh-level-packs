@@ -1,0 +1,21 @@
+{
+	// Music data id
+	"id": "sonnet",
+
+	// Music file
+	"file_name": "sonnet.ogg",
+
+	// Music information
+	"name": "Sonnet",
+	"album": "Spectra",
+	"author": "Chipzel",
+	
+	// Segments
+	"segments":
+	[
+		{ "time": 43.0 },
+		{ "time": 17.121 },
+		{ "time": 61.802 },
+		{ "time": 135}
+	]
+}

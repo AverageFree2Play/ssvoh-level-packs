@@ -1,0 +1,21 @@
+{
+    // Music data id
+    "id": "firstCrush",
+
+    // Music file
+    "file_name": "firstCrush.ogg",
+
+    // Music information
+    "name": "First Crush (ft. Knife City)",
+    "album": "",
+    "author": "Sabrepulse",
+
+    // Segments
+    "segments":
+    [
+        { "time": 21.659 },
+        { "time": 43.52 },
+        { "time": 86.934},
+        { "time": 110.665}
+    ]
+}
