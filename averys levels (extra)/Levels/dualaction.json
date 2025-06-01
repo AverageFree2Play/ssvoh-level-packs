@@ -1,0 +1,18 @@
+{
+	// Level information
+	"id": "dualaction",
+	"name": "dual action",
+	"description": "double the fun",
+	"author": "avery",	
+	"menuPriority": 12,
+	"selectable": true,
+	
+	// Style
+	"styleId": "dualaction",
+	
+	// Music
+	"musicId": "firstCrush",
+	
+	// Lua
+	"luaFile": "Scripts/Levels/dual.lua"
+}

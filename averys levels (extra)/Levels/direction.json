@@ -1,0 +1,18 @@
+{
+	// Level information
+	"id": "direction",
+	"name": "echolocation",
+	"description": "audio cues\n(turn sound volume up)",
+	"author": "avery",	
+	"menuPriority": 5,
+	"selectable": true,
+	
+	// Style
+	"styleId": "blindmenu",
+	
+	// Music
+	"musicId": "hexagonForce",
+	
+	// Lua
+	"luaFile": "Scripts/Levels/blind.lua"
+}

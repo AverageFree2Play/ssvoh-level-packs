@@ -1,0 +1,18 @@
+{
+	// Level information
+	"id": "colorpicker",
+	"name": "color picker",
+	"description": "stay in the lane with a different color",
+	"author": "avery",
+	"menuPriority": 20,
+	"selectable": true,
+	
+	// Style
+	"styleId": "colormenu",
+	
+	// Music
+	"musicId": "sonnet",
+	
+	// Lua
+	"luaFile": "Scripts/Levels/colorpicker.lua"
+}

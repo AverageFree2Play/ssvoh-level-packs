@@ -1,0 +1,18 @@
+{
+	// Level information
+	"id": "collapse",
+	"name": "collapse",
+	"description": "blinking",
+	"author": "avery",	
+	"menuPriority": 4,
+	"selectable": true,
+	
+	// Style
+	"styleId": "collapse",
+	
+	// Music
+	"musicId": "vindicateMe",
+	
+	// Lua
+	"luaFile": "Scripts/Levels/collapse.lua"
+}
