@@ -22,7 +22,7 @@ My level packs for Open Hexagon, contains third-party level packs.
 - Waterflame
 - Big Giant Circles
 - Shirobon
-- Saberpulse
+- Sabrepulse
 - FantomenK
 - Chipzel
 - Dunderpatrullen
