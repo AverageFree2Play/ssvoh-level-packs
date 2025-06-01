@@ -1,0 +1,21 @@
+{
+    // Music data id
+    "id": "hexagonForce",
+
+    // Music file
+    "file_name": "hexagonForce.ogg",
+
+    // Music information
+    "name": "Hexagon Force",
+    "album": "",
+    "author": "Waterflame",
+
+    // Segments
+    "segments":
+    [
+        { "time": 0 },
+        { "time": 26.151 },
+        { "time": 49.675},
+        { "time": 64.728}
+    ]
+}
