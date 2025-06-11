@@ -1,0 +1,18 @@
+{
+	// Music data id
+	"id": "Deviance",
+
+	// Music file
+	"file_name": "Deviance.ogg",
+
+	// Music information
+	"name": "Deviance",
+	"album": "Dirtyphonics Remix",
+	"author": "Excision & Datsik",
+	
+	// Segments
+	"segments":
+	[
+		{ "time": 0 }
+	]
+}

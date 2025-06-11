@@ -1,0 +1,21 @@
+{
+	// Level information
+	"id": "deviance",
+	"name": "deviance",
+	"description": "drop it !",
+	"author": "activities",
+	"menuPriority": 1,
+	"selectable": true,
+	
+	// Style
+	"styleId": "battle8",
+	
+	// Music
+	"musicId": "Deviance",
+	
+	// Lua
+	"luaFile": "Scripts/Levels/shine.lua"
+	
+	// Difficulty multipliers
+	// "difficultyMults": [ 0.5, 2 , 3 , 4 , 5 ]
+}

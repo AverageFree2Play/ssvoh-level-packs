@@ -1,0 +1,33 @@
+{
+	// Style data id
+	"id": "DevianceEnd7",
+
+	// Hue options
+	"hue_min": 0,
+	"hue_max": 360,
+	"hue_ping_pong": false,
+	"hue_increment": 8,
+	
+	// Pulse options
+	"pulse_min": 0,
+	"pulse_max": 1,
+	"pulse_increment": 0,
+
+	// 3D options
+	"3D_depth": 25,
+	"3D_skew": 1,
+	"3D_spacing": 15,
+	"3D_pulse_speed": 5,
+	
+	// Main color
+	"main": { "main": true, "dynamic": false, "value": [0, 0, 0, 255], "pulse": [255, 255, 255, 255] },
+
+	// Background colors
+	"colors":
+	[
+		{ "dynamic": true, "dynamic_offset": true, "dynamic_darkness": 1.0, "value": [0, 0, 0, 255], "pulse": [0, 0, 0, 255], "offset": 1, "hue_shift": 225 },
+		{ "dynamic": true, "dynamic_offset": true, "dynamic_darkness": 1.0, "value": [0, 0, 0, 255], "pulse": [0, 0, 0, 255], "offset": 2, "hue_shift": 225 },
+		{ "dynamic": true, "dynamic_offset": true, "dynamic_darkness": 1.0, "value": [0, 0, 0, 255], "pulse": [0, 0, 0, 255], "offset": 3, "hue_shift": 225 },
+		{ "dynamic": true, "dynamic_offset": true, "dynamic_darkness": 1.0, "value": [0, 0, 0, 255], "pulse": [0, 0, 0, 255], "offset": 4, "hue_shift": 225 }
+	]
+}
