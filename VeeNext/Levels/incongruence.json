@@ -1,0 +1,21 @@
+{
+	// Level information
+	"id": "incongruence",
+	"name": "incongruence",
+	"description": "choose your side...",
+	"author": "vee",	
+	"menuPriority": 40,
+	"selectable": true,
+	
+	// Style
+	"styleId": "incongruence",
+	
+	// Music
+	"musicId": "flirtFlirt",
+	
+	// Lua
+	"luaFile": "Scripts/Levels/incongruence.lua",
+	
+	// Difficulty multipliers
+	"difficultyMults": [0.75, 1.25, 1.5]
+}

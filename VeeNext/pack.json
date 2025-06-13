@@ -1,0 +1,18 @@
+{
+    "disambiguator": "ohvrvanilla",
+    "name": "vee's next",
+    "author": "vittorio romeo",
+    "version": 1,
+    "priority": -99998.9999,
+
+    "dependencies":
+    [
+        {
+            "disambiguator": "ohvrvanilla",
+            "name": "base",
+            "author": "vittorio romeo",
+            "min_version": 1
+        }
+    ]
+
+}

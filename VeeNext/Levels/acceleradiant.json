@@ -1,0 +1,21 @@
+{
+	// Level information
+	"id": "acceleradiant",
+	"name": "acceleradiant",
+	"description": "dunno lol",
+	"author": "vee",	
+	"menuPriority": 20,
+	"selectable": true,
+	
+	// Style
+	"styleId": "acceleradiant",
+	
+	// Music
+	"musicId": "mrGawne",
+	
+	// Lua
+	"luaFile": "Scripts/Levels/acceleradiant.lua",
+	
+	// Difficulty multipliers
+	"difficultyMults": [0.85, 1.25, 1.4]
+}
