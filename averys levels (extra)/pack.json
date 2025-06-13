@@ -3,7 +3,7 @@
     "name": "avery's levels (extra pack)",
     "author": "avery",
     "version": 1,
-    "priority": -99999.00,
+    "priority": 0,
 
     "dependencies":
     [
