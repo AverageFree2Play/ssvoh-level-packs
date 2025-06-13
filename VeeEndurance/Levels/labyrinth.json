@@ -1,0 +1,21 @@
+{
+	// Level information
+	"id": "labyrinth",
+	"name": "labyrinth",
+	"description": "forever trapped",
+	"author": "vee",	
+	"menuPriority": 50,
+	"selectable": true,
+	
+	// Style
+	"styleId": "wordlessinverse",
+	
+	// Music
+	"musicId": "commandoSteve",
+	
+	// Lua
+	"luaFile": "Scripts/Levels/labyrinth.lua",
+	
+	// Difficulty multipliers
+	"difficultyMults": [1.25, 1.50, 0.75, 0.5, 0.25]
+}
