@@ -76,8 +76,8 @@ function onUpdate(mFrameTime)
 	dirChangeTime = dirChangeTime - mFrameTime;
 	if dirChangeTime < 0 then
 		-- do not change direction while fast spinning
-		if isFastSpinning() == false then
-			setLevelValueFloat("rotation_speed", getLevelValueFloat("rotation_speed") * -1)
+		if u_isFastSpinning() == false then
+			l_setRotationSpeed(l_getRotationSpeed() * -1)
 			dirChangeTime = 100
 		end
 	end 
