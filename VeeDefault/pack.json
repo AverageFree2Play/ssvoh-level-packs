@@ -1,0 +1,17 @@
+{
+	"disambiguator": "ohvrvanilla",
+    "name": "vee's default levels",
+    "author": "Activities",
+    "version": 1,
+    "priority": -99998.9997,
+
+	"dependencies":
+    [
+        {
+            "disambiguator": "ohvrvanilla",
+            "name": "base",
+            "author": "vittorio romeo",
+            "min_version": 1
+        }
+    ]
+}

@@ -1,0 +1,21 @@
+{
+	// Level information
+	"id": "easy",
+	"name": "pointless",
+	"description": "easiest level of difficulty",
+	"author": "vee",
+	"menuPriority": 10,
+	"selectable": true,
+	
+	// Style
+	"styleId": "dark",
+	
+	// Music
+	"musicId": "jackRussel",
+	
+	// Lua
+	"luaFile": "Scripts/Levels/easypatterns.lua",
+	
+	// Difficulty multipliers
+	"difficultyMults": [1.5, 2, 2.5, 3, 0.5]
+}

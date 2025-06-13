@@ -1,0 +1,18 @@
+{
+	// Level information
+	"id": "tutorial",
+	"name": "baby steps",
+	"description": "learn to play openhexagon",
+	"author": "vee",
+	"menuPriority": 0,
+	"selectable": true,
+	
+	// Style
+	"styleId": "tutorial",
+	
+	// Music
+	"musicId": "drFinkelfracken",
+	
+	// Lua
+	"luaFile": "Scripts/Levels/tutorial.lua"
+}

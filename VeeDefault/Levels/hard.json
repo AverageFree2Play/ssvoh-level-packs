@@ -1,0 +1,21 @@
+{
+	// Level information
+	"id": "hard",
+	"name": "second dimension",
+	"description": "hard level of difficulty",
+	"author": "vee",	
+	"menuPriority": 30,
+	"selectable": true,
+	
+	// Style
+	"styleId": "light",
+	
+	// Music
+	"musicId": "mazeOfMayonnaise",
+	
+	// Lua
+	"luaFile": "Scripts/Levels/hardpatterns.lua",
+	
+	// Difficulty multipliers
+	"difficultyMults": [1.4, 0.75, 0.6]
+}

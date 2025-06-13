@@ -1,0 +1,21 @@
+{
+	// Level information
+	"id": "goldenratio",
+	"name": "golden ratio",
+	"description": "relax with the spirals",
+	"author": "vee",	
+	"menuPriority": 150,
+	"selectable": true,
+	
+	// Style
+	"styleId": "goldenratio",
+	
+	// Music
+	"musicId": "captainCool",
+	
+	// Lua
+	"luaFile": "Scripts/Levels/zen.lua",
+	
+	// Difficulty multipliers
+	"difficultyMults": [1.25, 1.50, 0.75, 0.5, 0.25]
+}

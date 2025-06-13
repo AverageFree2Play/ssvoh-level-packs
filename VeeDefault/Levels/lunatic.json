@@ -1,0 +1,21 @@
+{
+	// Level information
+	"id": "lunatic",
+	"name": "apeirogon",
+	"description": "hardest level of difficulty",
+	"author": "vee",	
+	"menuPriority": 40,
+	"selectable": true,
+	
+	// Style
+	"styleId": "gray",
+	
+	// Music
+	"musicId": "milkyWays",
+	
+	// Lua
+	"luaFile": "Scripts/Levels/lunaticpatterns.lua",
+	
+	// Difficulty multipliers
+	"difficultyMults": [1.25, 1.40, 0.75, 0.5, 0.35]
+}

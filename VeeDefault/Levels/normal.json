@@ -1,0 +1,21 @@
+{
+	// Level information
+	"id": "normal",
+	"name": "flattering shape",
+	"description": "normal level of difficulty",
+	"author": "vee",	
+	"menuPriority": 20,
+	"selectable": true,
+	
+	// Style
+	"styleId": "toxic",
+	
+	// Music
+	"musicId": "starshipShowdown",
+	
+	// Lua
+	"luaFile": "Scripts/Levels/normalpatterns.lua",
+	
+	// Difficulty multipliers
+	"difficultyMults": [1.5, 2, 2.5, 0.5]
+}

@@ -1,0 +1,21 @@
+{
+	// Level information
+	"id": "pi",
+	"name": "3.141592653589793238462643383279502884197169399375105820974944592307816406286",
+	"description": "do you like pi?",
+	"author": "vee",	
+	"menuPriority": 75,
+	"selectable": true,
+	
+	// Style
+	"styleId": "pistyle",
+	
+	// Music
+	"musicId": "callMeKatla",
+	
+	// Lua
+	"luaFile": "Scripts/Levels/pipatterns.lua",
+	
+	// Difficulty multipliers
+	"difficultyMults": [1.25, 1.50, 0.75, 0.5, 0.25]
+}
