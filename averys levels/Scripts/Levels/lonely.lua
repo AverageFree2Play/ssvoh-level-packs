@@ -51,7 +51,7 @@ function onInit()
     l_setPulseSpeedR(0)
     l_setPulseDelayMax(8)
 
-	l_setRadiusMin(20)
+	l_setRadiusMin(30)
 	l_addTracked('speed','speed')
 
     l_setBeatPulseMax(0)
@@ -84,10 +84,10 @@ end
 -- onIncrement is an hardcoded function that is called when the level difficulty is incremented
 function onIncrement()
 	level = level + 1;
-	speed = level * 0.2 + 0.5,120
-	e_messageAddImportant("Level Up!\nSpeed: "..speed,120);
+	speed = level * 0.2 + 0.5
 	l_setSpeedMult(level * 0.2 + 0.4);
 	l_setRotationSpeed(level * 0.05 + .15);
+	s_setPulseInc(level/25)
 end
 
 -- onUnload is an hardcoded function that is called when the level is closed/restarted
@@ -95,6 +95,9 @@ function onUnload()
 end
 
 local dirChangeTime = 100;
+pulseIMin = 0.0
+pulseIMax = 22.0
+pulseIStep = 0.0065
 
 -- onUpdate is an hardcoded function that is called every frame
 function onUpdate(mFrameTime)
@@ -106,4 +109,8 @@ dirChangeTime = dirChangeTime - mFrameTime;
 			dirChangeTime = 300
 		end
 	end 
+
+	--[[s_setPulseInc(s_getPulseInc() + pulseIStep)
+    if(s_getPulseInc() > pulseIMax) then pulseIStep = pulseIStep * -1 end
+    if(s_getPulseInc() < pulseIMin) then pulseIStep = pulseIStep * -1 end]]
 end

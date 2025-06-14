@@ -111,13 +111,13 @@ end
 
 -- shuffle the keys, and then call them to add all the patterns
 -- shuffling is better than randomizing - it guarantees all the patterns will be called
-keys = { 0, 0, 1, 1, 2, 2, 3, 3, 4, 4, 5, 5, 6, 7, 7, 8, 9, 10, 10, 10, 11, 12, 13 }
+keys = { 0, 0, 1, 1, 2, 2, 3, 3, 4, 4, 5, 5, 6, 7, 7, 8, 9, 10, 10, 10, 11, 12 }
 shuffle(keys)
 index = 0
 
 -- onInit is an hardcoded function that is called when the level is first loaded
 function onInit()
-    l_setSpeedMult(2)
+    l_setSpeedMult(2.25)
     l_setSpeedInc(0.10)
     l_setRotationSpeed(0.21)
     l_setRotationSpeedMax(0.4)
@@ -125,7 +125,7 @@ function onInit()
 
     l_setDelayMult(1.10)
     l_setDelayInc(-0.01)
-    l_setFastSpin(200)
+    l_setFastSpin(70)
     l_setSides(6)
     l_setSidesMin(6)
     l_setSidesMax(6)
@@ -185,7 +185,7 @@ function onUpdate(mFrameTime)
 	end
 	s_setHueMin(n/10)
 	s_setHueMax(n/10)
-	--l_setRotationSpeed((baseRot + 0.05*incrTimes + (1200-n)/1600)*dir)
+	l_setRotationSpeed((baseRot + 0.05*incrTimes + (1200-n)/1600)*dir)
 	--l_setBeatPulseMax(((1200-n)/10) - 30)
 	s_set3dPulseSpeed(((1200-n)/1000));
 	s_set3dDepth(math.ceil((1200-n)/100));

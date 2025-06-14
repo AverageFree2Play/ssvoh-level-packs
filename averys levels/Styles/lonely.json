@@ -14,10 +14,11 @@
 	"pulse_increment": 0.05,
 
 	// 3D options
-	"3D_depth": 100,
+	"3D_depth": 50,
 	"3D_skew": 0.25,
 	"3D_spacing": 2.5,
-	
+    "3D_alpha_falloff": 10,
+
 	// Main color
 	"main": { "main": true, "dynamic": false, "value": [255, 255, 255, 0], "pulse": [0, 0, 0, 0] },
 	"cap_color": "main",
