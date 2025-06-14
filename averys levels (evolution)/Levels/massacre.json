@@ -1,0 +1,12 @@
+{
+    "id": "massacre",
+    "name": "massacre",
+    "description": "you >will eventually< die",
+    "author": "avery",
+    "menuPriority": 70,
+    "selectable": true,
+    "styleId": "massacre",
+    "musicId": "massacre",
+    "luaFile": "Scripts/Levels/massacre.lua",
+    "difficultyMults": []
+}
