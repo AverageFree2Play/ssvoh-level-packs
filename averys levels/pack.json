@@ -3,7 +3,7 @@
     "name": "avery's levels",
     "author": "avery",
     "version": 1,
-    "priority": 0,
+    "priority": -1,
 
     "dependencies":
     [

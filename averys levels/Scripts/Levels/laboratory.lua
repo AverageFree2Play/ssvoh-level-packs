@@ -17,7 +17,7 @@ end
 function onStep()
     if math.random(1,2) == 1 then
         if l_getSides()==3 then
-            cWall(getRandomSide)
+            cWall(getRandomSide())
         elseif l_getSides()%2 ~= 0 then
             rWallEx(getRandomSide(), extra-1)
         else
@@ -54,10 +54,12 @@ function onInit()
     l_setBeatPulseMax(17)
     l_setBeatPulseDelayMax(24.8275) -- BPM is 145
 
-    l_setRadiusMin(60)
+    l_setRadiusMin(50)
+	l_setWallSkewLeft(30)
 
     l_addTracked("level", "level")
     l_enableRndSideChanges(false)
+    enableSwapIfDMGreaterThan(1)
 end
 
 -- onIncrement is an hardcoded function that is called when the level difficulty is incremented
