@@ -6,7 +6,7 @@
 	"hue_min": 0,
 	"hue_max": 360,
 	"hue_ping_pong": false,
-	"hue_increment": 0,
+	"hue_increment": 100,
 	
 	// Pulse options
 	"pulse_min": 0.0,

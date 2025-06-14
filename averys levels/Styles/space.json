@@ -3,10 +3,10 @@
 	"id": "space",
 
 	// Hue options
-	"hue_min": 180,
-	"hue_max": 180,
+	"hue_min": 0,
+	"hue_max": 360,
 	"hue_ping_pong": false,
-	"hue_increment": 0,
+	"hue_increment": 120,
 	
 	// Pulse options
 	"pulse_min": 0.0,

@@ -14,11 +14,11 @@ function randcolor()
 		side = math.random(0, 5)
 	end
 	hue = math.random(0, 360)
-	colDiff =  1--math.random(0, 1) -- 0: lighter, 1: darker, 2: hueshift forward, 3: hueshift back
+	colDiff =  1 -- 0: lighter, 1: darker, 2: hueshift forward, 3: hueshift back
 
 	--some combinations are basically impossible to tell apart
 	if colDiff == 0 then
-		hue = math.random(200,277)
+		hue = math.random(277,277)
 		--while hue > 200 and hue < 277 do
 		--	hue = math.random(0, 360)
 		--end

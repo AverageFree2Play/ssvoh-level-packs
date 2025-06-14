@@ -1,0 +1,23 @@
+{
+    // Music data id
+    "id": "bornSurvivor",
+
+    // Music file
+    "file_name": "bornSurvivor.ogg",
+
+    // Music information
+    "name": "Born Survivor",
+    "album": "Back Tracking",
+    "author": "shirobon",
+
+    // Segments
+    "segments":
+    [
+        { "time": 0 },
+        { "time": 13.807 },
+        { "time": 31.475 },
+        { "time": 47.174 },
+        { "time": 61 },
+        { "time": 77.22 }
+   ]
+}

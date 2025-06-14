@@ -1,0 +1,18 @@
+{
+	// Level information
+	"id": "wraparound",
+	"name": "short straw",
+	"description": "odd one out",
+	"author": "avery",	
+	"menuPriority": 18,
+	"selectable": true,
+	
+	// Style
+	"styleId": "wrap",
+	
+	// Music
+	"musicId": "bornSurvivor",
+	
+	// Lua
+	"luaFile": "Scripts/Levels/wrap.lua"
+}
