@@ -1,0 +1,12 @@
+{
+    "id": "laboratory",
+    "name": "laboratory",
+    "description": "forever trapped again",
+    "author": "avery",
+    "menuPriority": 50,
+    "selectable": true,
+    "styleId": "laboratory",
+    "musicId": "commandoSteve",
+    "luaFile": "Scripts/Levels/laboratory.lua",
+    "difficultyMults": [0.5, 1.50]
+}
