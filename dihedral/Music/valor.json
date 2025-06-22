@@ -1,0 +1,22 @@
+{
+	// Music data id
+	"id": "valor",
+
+	// Music file
+	"file_name": "valor.ogg",
+
+	// Music information
+	"name": "valor",
+	"album": "OCTAHEDRON",
+	"author": "Chipzel",
+	
+	// Segments
+	"segments":
+	[
+		{ "time": 0 },
+		{ "time": 59 },
+		{ "time": 73.835 },
+		{ "time": 120 },
+		{ "time": 162.436 }
+	]
+}

@@ -1,0 +1,18 @@
+{
+	// Level information
+	"id": "throwback",
+	"name": "throwback",
+	"description": "super hexagon",
+	"author": "avery",	
+	"menuPriority": 10,
+	"selectable": true,
+	
+	// Style
+	"styleId": "throwback",
+	
+	// Music
+	"musicId": "valor",
+	
+	// Lua
+	"luaFile": "Scripts/Levels/throwback.lua"
+}
