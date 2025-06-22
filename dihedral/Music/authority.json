@@ -1,0 +1,22 @@
+{
+	// Music data id
+	"id": "authority",
+
+	// Music file
+	"file_name": "authority.ogg",
+
+	// Music information
+	"name": "authority",
+	"album": "OCTAHEDRON",
+	"author": "Chipzel",
+	
+	// Segments
+	"segments":
+	[
+		{ "time": 0 },
+		{ "time": 30 },
+		{ "time": 60 },
+		{ "time": 75 },
+		{ "time": 93.74 }
+	]
+}

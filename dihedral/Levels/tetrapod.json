@@ -1,0 +1,18 @@
+{
+	// Level information
+	"id": "tetrapod",
+	"name": "tetrapod",
+	"description": "focus",
+	"author": "avery",	
+	"menu_priority": 7,
+	"selectable": true,
+	
+	// Style
+	"styleId": "tetrapod",
+	
+	// Music
+	"musicId": "authority",
+	
+	// Lua
+	"luaFile": "Scripts/Levels/tetrapod.lua"
+}

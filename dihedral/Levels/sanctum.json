@@ -1,0 +1,18 @@
+{
+	// Level information
+	"id": "sanctum",
+	"name": "inner sanctum",
+	"description": "Go away, walls!",
+	"author": "avery",	
+	"menuPriority": 6,
+	"selectable": true,
+	
+	// Style
+	"styleId": "sanctum",
+	
+	// Music
+	"musicId": "innerSanctum",
+	
+	// Lua
+	"luaFile": "Scripts/Levels/sanctum.lua"
+}

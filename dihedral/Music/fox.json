@@ -1,0 +1,22 @@
+{
+    // Music data id
+    "id": "fox",
+
+    // Music file
+    "file_name": "fox.ogg",
+
+    // Music information
+    "name": "FOX",
+    "album": "Dimensions",
+    "author": "shirobon",
+
+    // Segments
+    "segments":
+    [
+        { "time": 0 },
+        { "time": 26 },
+        { "time": 52 },
+        { "time": 93.904 },
+        { "time": 123.459 }
+   ]
+}
