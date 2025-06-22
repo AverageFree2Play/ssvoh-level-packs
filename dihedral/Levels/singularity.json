@@ -1,0 +1,18 @@
+{
+	// Level information
+	"id": "singularity",
+	"name": "singularity",
+	"description": "",
+	"author": "avery",	
+	"menuPriority": 18,
+	"selectable": true,
+	
+	// Style
+	"styleId": "singularitymenu",
+	
+	// Music
+	"musicId": "vibe",
+	
+	// Lua
+	"luaFile": "Scripts/Levels/singularity.lua"
+}

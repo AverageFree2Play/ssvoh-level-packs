@@ -1,0 +1,18 @@
+{
+    // Music data id
+    "id": "crystal",
+
+    // Music file
+    "file_name": "crystal.ogg",
+
+    // Music information
+    "name": "Crystal",
+    "album": "Max Cameron Concors [ASCAP]",
+    "author": "Liquid Cinema",
+
+    // Segments
+    "segments":
+    [
+        { "time": 0 }
+    ]
+}

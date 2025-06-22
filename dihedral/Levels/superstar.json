@@ -1,0 +1,18 @@
+{
+	// Level information
+	"id": "superstar",
+	"name": "superstar",
+	"description": "Just messing around with some fractals.",
+	"author": "avery",	
+	"menuPriority": 1,
+	"selectable": true,
+	
+	// Style
+	"styleId": "superstar",
+	
+	// Music
+	"musicId": "superstar",
+	
+	// Lua
+	"luaFile": "Scripts/Levels/superstar.lua"
+}

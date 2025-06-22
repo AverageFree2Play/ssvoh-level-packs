@@ -1,0 +1,18 @@
+{
+	// Level information
+	"id": "helix",
+	"name": "helix",
+	"description": "Extendo",
+	"author": "avery",	
+	"menuPriority": 3,
+	"selectable": true,
+	
+	// Style
+	"styleId": "helix",
+	
+	// Music
+	"musicId": "helixNebula",
+	
+	// Lua
+	"luaFile": "Scripts/Levels/helix.lua"
+}

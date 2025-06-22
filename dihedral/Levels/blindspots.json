@@ -1,0 +1,18 @@
+{
+	// Level information
+	"id": "blindspots",
+	"name": "Blindspots",
+	"description": "Blindspot\nA  L  L    A  R  O  U  N  D",
+	"author": "avery",	
+	"menu_priority": 5,
+	"selectable": true,
+	
+	// Style
+	"styleId": "blindspot0",
+	
+	// Music
+	"musicId": "dubstep",
+	
+	// Lua
+	"luaFile": "Scripts/Levels/blindspots.lua"
+}

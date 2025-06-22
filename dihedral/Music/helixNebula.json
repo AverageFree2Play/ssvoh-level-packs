@@ -1,0 +1,18 @@
+{
+    // Music data id
+    "id": "helixNebula",
+
+    // Music file
+    "file_name": "helixNebula.ogg",
+
+    // Music information
+    "name": "helix Nebula",
+    "album": "Power Supply",
+    "author": "Anamanaguchi",
+
+    // Segments
+    "segments":
+    [
+        { "time": 0 }
+    ]
+}

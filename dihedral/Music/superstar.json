@@ -1,0 +1,18 @@
+{
+    // Music data id
+    "id": "superstar",
+
+    // Music file
+    "file_name": "superstar.ogg",
+
+    // Music information
+    "name": "superstar",
+    "album": "Shojo EP",
+    "author": "2TONEDISCO",
+
+    // Segments
+    "segments":
+    [
+        { "time": 0 }
+    ]
+}

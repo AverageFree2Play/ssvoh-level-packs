@@ -1,0 +1,12 @@
+{
+    "id": "fatteringshape",
+    "name": "fattering shape",
+    "description": "Big boi.",
+    "author": "avery",
+    "menuPriority": 4,
+    "selectable": true,
+    "styleId": "fatshape",
+    "musicId": "crystal",
+    "luaFile": "Scripts/Levels/fatshape.lua",
+    "difficultyMults": [0.75, 2, 3]
+}

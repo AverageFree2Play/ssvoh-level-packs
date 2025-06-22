@@ -1,0 +1,32 @@
+{
+	// Style data id
+	"id": "blindspot1", // This is just a remixed style of the original style, but made more scary
+
+	// Hue options
+	"hue_min": 0,
+	"hue_max": 255,
+	"hue_ping_pong": false,
+	"hue_increment": 1.0,
+	
+	// Pulse options
+	"pulse_min": 0.0,
+	"pulse_max": 1,
+	"pulse_increment": 0.5,
+
+	// 3D options
+	"3D_depth": 12,
+	"3D_skew": 0.15,
+	"3D_spacing": 2.1,
+
+	
+	// Main color
+	"main": { "main": true, "dynamic": false, "value": [0, 0, 0, 255], "pulse": [0, 0, 0, 255] },
+
+	// Background colors
+	"colors":
+	[
+		{ "dynamic": false, "dynamic_offset": false, "dynamic_darkness": 1.0, "value": [255, 0, 0, 255], "pulse": [0, 0, 0, 0]},
+		{ "dynamic": false, "dynamic_offset": false, "dynamic_darkness": 1.0, "value": [35, 35, 35, 255], "pulse": [0, 0, 0, 0]},
+		{ "dynamic": false, "dynamic_offset": false, "dynamic_darkness": 1.0, "value": [255, 0, 0, 255], "pulse": [0, 0, 0, 0]}
+	]
+}

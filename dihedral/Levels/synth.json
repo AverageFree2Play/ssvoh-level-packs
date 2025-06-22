@@ -1,0 +1,12 @@
+{
+    "id": "synthKick",
+    "name": "synth kick",
+    "description": "Tight, driving electro-synth pop",
+    "author": "avery",
+    "menuPriority": 0,
+    "selectable": true,
+    "styleId": "synth",
+    "musicId": "synthKick",
+    "luaFile": "Scripts/Levels/synth.lua",
+    "difficultyMults": []
+}

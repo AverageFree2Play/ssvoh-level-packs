@@ -1,0 +1,18 @@
+{
+    // Music data id
+    "id": "dubstep",
+
+    // Music file
+    "file_name": "dubstep.ogg",
+
+    // Music information
+    "name": "dubstep role play game",
+    "album": "CONTEMPORARY VIDEOGAMES",
+    "author": "APM Music",
+
+    // Segments
+    "segments":
+    [
+        { "time": 0 }
+    ]
+}
