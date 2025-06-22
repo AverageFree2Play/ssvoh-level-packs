@@ -1,0 +1,21 @@
+{
+	// Music data id
+	"id": "solitude",
+
+	// Music file
+	"file_name": "solitude.ogg",
+
+	// Music information
+	"name": "solitude",
+	"album": "OCTAHEDRON",
+	"author": "Chipzel",
+	
+	// Segments
+	"segments":
+	[
+		{ "time": 0 },
+		{ "time": 30 },
+		{ "time": 60 },
+		{ "time": 90 }
+	]
+}

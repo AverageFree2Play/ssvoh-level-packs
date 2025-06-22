@@ -1,0 +1,18 @@
+{
+	// Level information
+	"id": "echinoderm",
+	"name": "echnoderm",
+	"description": "pentagon force",
+	"author": "avery",	
+	"menuPriority": 9,
+	"selectable": true,
+	
+	// Style
+	"styleId": "echinoderm",
+	
+	// Music
+	"musicId": "solitude",
+	
+	// Lua
+	"luaFile": "Scripts/Levels/echinoderm.lua"
+}

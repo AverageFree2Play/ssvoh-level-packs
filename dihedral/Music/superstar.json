@@ -13,6 +13,10 @@
     // Segments
     "segments":
     [
-        { "time": 0 }
-    ]
+        { "time": 0 },
+ 		{ "time": 46.662 },
+		{ "time": 62.5 },
+		{ "time": 87 },
+		{ "time": 108.131 }
+   ]
 }

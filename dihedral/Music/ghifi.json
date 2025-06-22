@@ -1,0 +1,21 @@
+{
+	// Music data id
+	"id": "ghifi",
+
+	// Music file
+	"file_name": "ghifi.ogg",
+
+	// Music information
+	"name": "ghifi",
+	"album": "Interstellaria OST",
+	"author": "Chipzel",
+	
+	// Segments
+	"segments":
+	[
+		{ "time": 0 },
+		{ "time": 11.264 },
+		{ "time": 21 },
+		{ "time": 55 }
+	]
+}
