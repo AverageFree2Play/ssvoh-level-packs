@@ -1,0 +1,18 @@
+{
+	// Level information
+	"id": "spirit",
+	"name": "spirit",
+	"description": "array",
+	"author": "avery",	
+	"menuPriority": 17,
+	"selectable": true,
+	
+	// Style
+	"styleId": "wedge",
+	
+	// Music
+	"musicId": "spirit",
+	
+	// Lua
+	"luaFile": "Scripts/Levels/spirit.lua"
+}

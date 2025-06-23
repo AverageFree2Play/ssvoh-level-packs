@@ -1,0 +1,23 @@
+{
+	// Music data id
+	"id": "spirit",
+
+	// Music file
+	"file_name": "spirit.ogg",
+
+	// Music information
+	"name": "spirit",
+	"album": "OCTAHEDRON",
+	"author": "Chipzel",
+	
+	// Segments
+	"segments":
+	[
+		{ "time": 0 },
+		{ "time": 15 },
+		{ "time": 43.833 },
+		{ "time": 101.225 },
+		{ "time": 250.591 },
+		{ "time": 280.161 }
+	]
+}
