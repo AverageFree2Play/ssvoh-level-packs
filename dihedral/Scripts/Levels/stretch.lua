@@ -72,8 +72,8 @@ function onInit()
     l_setPulseSpeedR(0)
     l_setPulseDelayMax(4)
 
-    l_setBeatPulseMax(5)
-    l_setBeatPulseDelayMax(30)
+    l_setBeatPulseMax(7)
+    l_setBeatPulseDelayMax(3600/138)
 
     l_addTracked("freeSides","free sides")
 end
@@ -96,7 +96,7 @@ function onStep()
     e_eval("l_setPulseSpeed(0)")
     e_eval("l_setPulseSpeedR(0)")
     e_eval("l_setRotationSpeed(0.15)")
-    e_waitS(0.23) -- sync with da beat
+    e_waitS(0.229) -- sync with da beat
 end
 
 -- onIncrement is an hardcoded function that is called when the level difficulty is incremented

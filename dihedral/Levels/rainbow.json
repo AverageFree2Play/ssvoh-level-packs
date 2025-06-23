@@ -1,0 +1,18 @@
+{
+	// Level information
+	"id": "rainbowtylenol",
+	"name": "rainbow tylenol",
+	"description": "rainbow road",
+	"author": "avery",	
+	"menuPriority": -1,
+	"selectable": true,
+	
+	// Style
+	"styleId": "rainbow",
+	
+	// Music
+	"musicId": "tylenol",
+	
+	// Lua
+	"luaFile": "Scripts/Levels/rainbow.lua"
+}

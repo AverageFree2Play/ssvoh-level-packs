@@ -1,0 +1,22 @@
+{
+    // Music data id
+    "id": "vipme",
+
+    // Music file
+    "file_name": "vipme.ogg",
+
+    // Music information
+    "name": "VIP Me",
+    "album": "POOL PARTY POP",
+    "author": "APM Music",
+
+    // Segments
+    "segments":
+    [
+        { "time": 0 },
+		{ "time": 13.175 },
+		{ "time": 30 },
+		{ "time": 44 },
+		{ "time": 76.74 }
+    ]
+}

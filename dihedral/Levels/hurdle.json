@@ -1,0 +1,18 @@
+{
+	// Level information
+	"id": "hurdle",
+	"name": "hurdle",
+	"description": "press space to jump over walls\n(3D recommended)",
+	"author": "avery",	
+	"menuPriority": 12,
+	"selectable": true,
+	
+	// Style
+	"styleId": "hurdlemenu",
+	
+	// Music
+	"musicId": "vipme",
+	
+	// Lua
+	"luaFile": "Scripts/Levels/hurdle.lua"
+}

@@ -1,0 +1,22 @@
+{
+    // Music data id
+    "id": "tylenol",
+
+    // Music file
+    "file_name": "tylenol.ogg",
+
+    // Music information
+    "name": "Rainbow Tylenol",
+    "album": "",
+    "author": "Kitsune^2",
+
+    // Segments
+    "segments":
+    [
+        { "time": 0 },
+        { "time": 14.265 },
+        { "time": 28.914 },
+        { "time": 43.114 },
+        { "time": 49.8 }
+   ]
+}
