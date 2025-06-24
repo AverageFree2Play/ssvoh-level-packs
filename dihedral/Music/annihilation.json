@@ -1,0 +1,21 @@
+{
+	// Music data id
+	"id": "annihilation",
+
+	// Music file
+	"file_name": "annihilation.ogg",
+
+	// Music information
+	"name": "Annihilation",
+	"album": "Interstellaria OST",
+	"author": "Chipzel",
+	
+	// Segments
+	"segments":
+	[
+		{ "time": 6.956 },
+		{ "time": 15 },
+		{ "time": 30 },
+		{ "time": 45 }
+	]
+}
