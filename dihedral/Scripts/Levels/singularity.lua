@@ -5,7 +5,7 @@ u_execDependencyScript("ohvrvanilla", "base", "vittorio romeo", "commonpatterns.
 
 function singularity()
 	for i = 0, 599 * 2 + 1 do
-		w_wallAcc(i, THICKNESS * 30, 5, -0.39, 0, 5)
+		w_wallAcc(i, THICKNESS * 30, 5, -0.35, 0, 5)
 	end
 end
 

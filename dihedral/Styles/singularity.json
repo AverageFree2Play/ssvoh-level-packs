@@ -24,7 +24,7 @@
 
 	// Main color
 	"main": { "main": false, "dynamic": true, "value": [0, 0, 0, 255], "pulse": [0, 0, 0, 0] },
-	"cap_color": "main_darkened",
+	"cap_color": {"legacy":false,"dynamic": true, "dynamic_darkness": 10, "value": [0, 0, 0, 255], "pulse": [0, 0, 0, 0] },
 	"player_color": {"dynamic": true, "value": [0, 0, 0, 255], "pulse": [0, 0, 0, 0] },
 	"text_color": {"dynamic": true, "value": [0, 0, 0, 255], "pulse": [0, 0, 0, 0] },
 	"wall_color": {"dynamic": false, "value": [0, 0, 0, 255], "pulse": [0, 0, 0, 0] },

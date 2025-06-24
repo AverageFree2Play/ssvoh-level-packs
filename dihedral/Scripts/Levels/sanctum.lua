@@ -5,11 +5,11 @@ u_execDependencyScript("ohvrvanilla", "base", "vittorio romeo", "commonpatterns.
 u_execDependencyScript("ohvrvanilla", "base", "vittorio romeo", "nextpatterns.lua")
 
 function divider(mSide)
-	w_wallAcc(mSide, THICKNESS * 30, 5, -0.32, 0, 5)
+	w_wallAcc(mSide, THICKNESS * 30, 5, -0.25, 0, 5)
 end
 
 function capper(mSide)
-	w_wallAcc(mSide, THICKNESS, 5, -0.32, 0, 5)
+	w_wallAcc(mSide, THICKNESS, 5, -0.25, 0, 5)
 end
 
 function pLanes()
@@ -47,9 +47,9 @@ index = 0
 
 -- onInit is an hardcoded function that is called when the level is first loaded
 function onInit()
-    l_setSpeedMult(2.4)
+    l_setSpeedMult(2.2)
     l_setSpeedInc(0.1)
-    l_setRotationSpeed(0.27)
+    l_setRotationSpeed(0.25)
     l_setRotationSpeedMax(0.4)
     l_setRotationSpeedInc(0.045)
     l_setDelayMult(1.1)
@@ -61,32 +61,30 @@ function onInit()
 
     l_setIncTime(15)
 	l_setIncEnabled(false)
-	l_setRadiusMin(40)
 
-    l_setPulseMin(70)
-    l_setPulseMax(90)
-    l_setPulseSpeed(1.03)
-    l_setPulseSpeedR(0.57)
-    l_setPulseDelayMax(9.1)
+    l_setPulseMin(64)
+    l_setPulseMax(84)
+    l_setPulseSpeed(1.05)
+    l_setPulseSpeedR(1.34)
+    l_setPulseDelayMax(7)
 
-    l_setBeatPulseMax(17)
-    l_setBeatPulseDelayMax(23.8)
+    l_setBeatPulseMax(20)
+    l_setBeatPulseDelayMax(3600/130)
 end
 
 -- onLoad is an hardcoded function that is called when the level is started/restarted
 function onLoad()
 	l_setSides(36)
 	pLanes()
-	l_setRotationSpeed(0.25)
 	s_set3dSkew(0.2)
-	-- s_set3dPulseSpeed(0)
-	l_setPulseMin(80)
-	l_setPulseMax(160)
-	l_setPulseSpeed(2)
-	l_setPulseSpeedR(10)
-	l_setPulseDelayMax(30)
-	l_setBeatPulseMax(20)
-	l_setBeatPulseDelayMax(20)
+	--s_set3dPulseSpeed(0)
+	-- l_setPulseMin(80)
+	-- l_setPulseMax(160)
+	-- l_setPulseSpeed(2)
+	-- l_setPulseSpeedR(10)
+	-- l_setPulseDelayMax(30)
+	-- l_setBeatPulseMax(20)
+	-- l_setBeatPulseDelayMax(20)
 	--execEvent("slowfastalt")
 end
 
