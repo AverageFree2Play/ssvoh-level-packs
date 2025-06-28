@@ -1,0 +1,18 @@
+{
+	// Level information
+	"id": "firevortex",
+	"name": "fire aura",
+	"description": "vortex",
+	"author": "avery",	
+	"menuPriority": 17,
+	"selectable": true,
+	
+	// Style
+	"styleId": "fire",
+	
+	// Music
+	"musicId": "fireAura",
+	
+	// Lua
+	"luaFile": "Scripts/Levels/firevortex.lua"
+}

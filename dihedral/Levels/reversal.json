@@ -1,0 +1,18 @@
+{
+	// Level information
+	"id": "controlswitcher",
+	"name": "reversal",
+	"description": "periodically reversed controls\n(requires 3d)",
+	"author": "avery",	
+	"menuPriority": 20,
+	"selectable": true,
+	
+	// Style
+	"styleId": "switchinator",
+	
+	// Music
+	"musicId": "chaoz",
+	
+	// Lua
+	"luaFile": "Scripts/Levels/reverse.lua"
+}

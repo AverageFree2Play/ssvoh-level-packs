@@ -1,0 +1,18 @@
+{
+	// Level information
+	"id": "control",
+	"name": "controlled rotation",
+	"description": "you move and rotate the polygon at the same time",
+	"author": "avery",	
+	"menuPriority": 19,
+	"selectable": true,
+	
+	// Style
+	"styleId": "control",
+	
+	// Music
+	"musicId": "legacy",
+	
+	// Lua
+	"luaFile": "Scripts/Levels/control.lua"
+}

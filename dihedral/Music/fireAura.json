@@ -1,0 +1,22 @@
+{
+    // Music data id
+    "id": "fireAura",
+
+    // Music file
+    "file_name": "fireAura.ogg",
+
+    // Music information
+    "name": "fire Aura",
+    "album": "",
+    "author": "Kid2will",
+
+    // Segments
+    "segments":
+    [
+        { "time": 0 },
+        { "time": 20 },
+        { "time": 39 },
+        { "time": 53.328 },
+        { "time": 69.360 }
+   ]
+}

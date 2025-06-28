@@ -1,0 +1,21 @@
+{
+	
+	// Music data id
+	"id": "houston",
+	// Music file
+	"file_name": "houston.ogg",
+	// Music information
+	"name": "houston",
+	"album": "The Glory Days",
+	"author": "biggiantcircles",
+	// Segments
+	"segments":
+	[
+		{ "time": 0 },
+		{ "time": 14.5 },
+		{ "time": 36.941 },
+		{ "time": 51.6 },
+		{ "time": 71.9 },
+		{ "time": 88.521 }
+	]
+}

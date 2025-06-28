@@ -1,0 +1,24 @@
+{
+    // Music data id
+    "id": "chaoz",
+
+    // Music file
+    "file_name": "chaoz.ogg",
+
+    // Music information
+    "name": "chaoz fantasy",
+    "album": "",
+    "author": "ParagonX9",
+
+    // Segments
+    "segments":
+    [
+        { "time": 0 },
+        { "time": 11.867 },
+        { "time": 22 },
+        { "time": 46 },
+        { "time": 58.779 },
+        { "time": 71 },
+        { "time": 82 }
+   ]
+}
